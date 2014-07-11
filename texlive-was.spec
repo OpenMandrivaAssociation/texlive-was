@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-was
 Version:	20110215
-Release:	7
+Release:	8
 Summary:	A collection of small packages by Walter Schmidt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/was
