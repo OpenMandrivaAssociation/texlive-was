@@ -26,14 +26,6 @@ interest: - compliance of maths typesetting with ISO standards;
 both decimal separator and maths; and - upright Greek letters
 in maths.
 
-%post
-    %{_sbindir}/texlive.post
-
-%postun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
-
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/was/fixmath.sty
@@ -65,15 +57,4 @@ in maths.
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
 
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110215-2
-+ Revision: 757499
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110215-1
-+ Revision: 719903
-- texlive-was
-- texlive-was
-- texlive-was
 
