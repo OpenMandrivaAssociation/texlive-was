@@ -1,6 +1,6 @@
 Name:		texlive-was
 Version:	64691
-Release:	1
+Release:	2
 Summary:	A collection of small packages by Walter Schmidt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/was
