@@ -3,7 +3,7 @@ Version:	64691
 Release:	2
 Summary:	A collection of small packages by Walter Schmidt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/was
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/was
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/was.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/was.doc.r%{version}.tar.xz
